@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pras_project</name>
+  <version>0.0.0</version>
+  <description>The pras_project package of group 7</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+
+	<maintainer email="flabeau@kth.se">julesflabeau</maintainer>
+	<maintainer email="emblam@kth.se">emblamorast</maintainer>
+	<maintainer email="isauma@kth.se">iskander</maintainer>
+
+
+	<!-- One license tag required, multiple allowed, one license per tag -->
+	<!-- Commonly used license strings: -->
+	<!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+	<license>TODO</license>
+
+
+  <!-- Dependencies -->
+  
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>crazyflie_driver</build_depend>
+	<build_depend>cv_bridge</build_depend>
+
+	<build_depend>geometry_msgs</build_depend>
+	<build_depend>rospy</build_depend>
+	<build_depend>std_msgs</build_depend>
+	<build_depend>tf</build_depend>
+	<build_depend>tf2_ros</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+	<build_export_depend>crazyflie_driver</build_export_depend>
+	<build_export_depend>geometry_msgs</build_export_depend>
+
+	<build_export_depend>rospy</build_export_depend>
+	<build_export_depend>std_msgs</build_export_depend>
+	<build_export_depend>tf</build_export_depend>
+	<build_export_depend>tf2_ros</build_export_depend>
+	<exec_depend>crazyflie_driver</exec_depend>
+	<exec_depend>cv_bridge</exec_depend>
+	<exec_depend>geometry_msgs</exec_depend>
+
+	<exec_depend>rospy</exec_depend>
+	<exec_depend>std_msgs</exec_depend>
+	<exec_depend>tf</exec_depend>
+	<exec_depend>tf2_ros</exec_depend>
+	<exec_depend>sensor_msgs</exec_depend>
+
+	<build_depend>message_generation</build_depend>
+	<exec_depend>message_runtime</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

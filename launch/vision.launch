@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+	<node pkg="pras_project" type="vision_object_detection.py" name="vision_object_detection" output="screen"/>
+
+	<node pkg="pras_project" type="vision_object_classification.py" name="vision_object_classification" output="screen" args="$(find pras_project)/CNN/"/>
+
+	<node pkg="pras_project" type="vision_object_treatment.py" name="vision_object_treatment" output="screen" args="$(find pras_project)/CNN/"/>
+
+
+
+</launch>

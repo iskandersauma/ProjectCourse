@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node name="marker_detection" pkg="pras_project" type="marker_detection.py" />
+  <node name="localization_publisher" pkg="pras_project" type="localization_publisher.py" />
+  <node name="displaymapmarkers" pkg="pras_project" type="displaymapmarkers.py" args="$(find dd2419_resources)/worlds_json/comp_without_signs.world.json"/>
+  <node name="simple_localization" pkg="pras_project" type="simple_localization.py" />
+
+
+</launch>

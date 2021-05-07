@@ -1,0 +1,7 @@
+
+
+rosrun pras_project path_execution.py ~/dd2419_ws/src/course_packages/dd2419_resources/worlds_json/nav_challenge.world.json
+
+rosrun pras_project mission_planning.py ~/dd2419_ws/src/course_packages/dd2419_resources/worlds_json/nav_challenge.world.json
+
+<node name="ekf" pkg="pras_project"  type="ekf.py"/>

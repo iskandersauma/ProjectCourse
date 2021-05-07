@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node pkg="pras_project" type="path_execution.py" name="path_execution" output="screen" args="$(find dd2419_resources)/worlds_json/comp_without_signs.world.json" cwd='node'/>
+
+	<node pkg="pras_project" type="mission_planning.py" name="mission_planning" output="screen" args="$(find dd2419_resources)/worlds_json/comp_without_signs.world.json"/>
+
+</launch>
